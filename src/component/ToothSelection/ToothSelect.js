@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 
 const ToothSelect = () => {
     const {selectedTeath,teathPositionInfo} = useContext(SelectedToothContext);
-    console.log(selectedTeath)
+    // console.log(selectedTeath)
 
     
     const [typeTeath, setTypeTeath] = useState({});
@@ -31,7 +31,7 @@ const ToothSelect = () => {
           type[key.substring(2)] = true
         }
     })
-    console.log(type)
+    // console.log(type)
     setTypeTeath(type)
     }
   return (
