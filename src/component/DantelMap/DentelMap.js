@@ -88,7 +88,7 @@ const DentelMap = () => {
 
 	
 
-      console.log("founded: "+isModthere )
+    //   console.log("founded: "+isModthere )
       if(isModthere === 0){
           setTeachPostionInfo(prevstate=>{
               return {...prevstate, [teathNameAndNumber[e].mod]: false}
@@ -106,7 +106,7 @@ const DentelMap = () => {
     }
     }
 
-    console.log("Selected Tooth: " + teathNameAndNumber[e].name);
+    // console.log("Selected Tooth: " + teathNameAndNumber[e].name);
     if(!teathPositionInfo[teathNameAndNumber[e].mod]){
         setTeachPostionInfo(prevstate=>{
             return {...prevstate, [teathNameAndNumber[e].mod]: true}
@@ -141,8 +141,8 @@ const DentelMap = () => {
     Lomolar,} = teathPositionInfo;
   return (
     <div className="chart">
-      {console.log(selectedTeath)}
-      {console.log(teathPositionInfo)}
+      {/* {console.log(selectedTeath)} */}
+      {/* {console.log(teathPositionInfo)} */}
 	  <span className="chart-text">Where do you experience pain in your mouth? Select tooth/teeth</span>
       <div className="chart-info">
 		  

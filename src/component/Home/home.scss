@@ -6,6 +6,9 @@
     align-items: center;
     min-height: 100vh;
     max-width: 350px;
+    @media (max-width: 450px) {
+        max-width: 100%;
+      }
     color: #ffff;
 
     &-head{

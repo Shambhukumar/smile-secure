@@ -1,5 +1,8 @@
 .inpain{
     width: 350px;
+    @media (max-width: 450px) {
+        max-width: 100%;
+      }
     padding: 10px 15px;
     height: 100vh;
     overflow-y: scroll !important;
