@@ -1,0 +1,82 @@
+.home{
+    background-image: url("../Assets/Image/background.jpg");
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 350px;
+    color: #ffff;
+
+    &-head{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px;
+        &-text{
+            text-align: left;
+            font-weight: 600;
+        }
+        &-appointment{
+            display: flex;
+            align-items: center;
+            padding: 0px 10px;
+            font-weight: 600;
+            background-color: #ffff;
+            color: black;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+    &-bottom{
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+        &-text{
+            font-size: 1.2rem;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        &-menu{
+            padding: 25px 10px;
+            font-weight: 600;
+            width: 100%;
+            background-color: #ffff;
+            color: black;
+            // height: 25vh;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            font-size: 0.8rem;
+            &-text{
+                margin-top: 10px;
+                height: 25%;
+            }
+            &-container{
+                width: 100%;
+                display: flex;
+                align-content: center;
+                justify-content: space-around;
+                align-items: center;
+                height: 70%;
+              &-item{
+                  cursor: pointer;
+                  text-decoration: none;
+                  color: black;
+                  margin-top: 10px;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-between;
+                  align-items: center;
+                  height: 60%;
+                  img{
+                      width: 35px;
+                      height: 35px;
+                      margin-bottom: 5px;
+                  }
+                  width: 15%;
+              }
+            }
+        }
+      
+    }
+}

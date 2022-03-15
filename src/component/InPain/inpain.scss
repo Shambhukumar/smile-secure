@@ -1,0 +1,55 @@
+.inpain{
+    width: 350px;
+    padding: 10px 15px;
+    height: 100vh;
+    overflow-y: scroll !important;
+    position: relative;
+    &-head{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        &-text{
+            text-align: left;
+            font-weight: 600;
+        }
+        &-appointment{
+            font-weight: 600;
+            padding: 5px ;
+            color: #ffff;
+            background-color: black;
+        }
+    }
+    &-body{
+        display: flex;
+        width: 100%;
+        // justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        text-align: left;
+        span{
+            width: 100%;
+            text-align: left !important;
+            margin-bottom: 10px;
+        }
+        img{
+            margin: 15px 0px;
+            width: 100%;
+            object-fit: cover;
+            height: 250px;
+        }
+        &-list{
+            margin-top: 10px;
+            width: 80%;
+            ul{
+                li{
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+  
+    
+}
